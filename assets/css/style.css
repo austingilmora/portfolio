@@ -1,0 +1,59 @@
+:root {
+    --primary-color: #011627;
+    --secondary-color: #EAEAEA;
+    --tertiary-color: #5B85AA;
+    --quad-color: #823329;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Consolas", Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--primary-color);
+}
+
+/* Styling the Header */
+
+header {
+    display: flex;
+    padding: 20px 35px;
+    color: var(--secondary-color);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    z-index: 9999;
+    background-color: var(--primary-color)
+}
+
+header h1 {
+    font-size: 46px;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 30px;
+    font-weight: normal;
+    font-size: 1.55vw;
+}
