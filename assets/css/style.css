@@ -62,6 +62,7 @@ header nav ul li a {
 
 section {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /* Styling the Titles */
@@ -75,7 +76,7 @@ section {
 }
 
 .title-div {
-    display: flex;
+    
     flex: 0 0 22vw;
     justify-content: right;
     border-right: var(--primary-color) solid 5px;
@@ -88,8 +89,6 @@ section {
     background-image: url(../images/shell2.jpg);
     background-size: cover;
     background-position: center;
-    display: flex;
-    flex-wrap: wrap;
     height: 300px;
 }
 /* END Hero Styling */
@@ -99,13 +98,9 @@ section {
 .austin-pic {
     height: 500px;
     padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .hello-world {
-    display: flex;
-    flex-wrap: wrap;
     flex: 0 0 400px;
     font-size: 26px;
     line-height: 1.5;
@@ -130,10 +125,7 @@ section {
 }
 
 .project-img {
-    display: flex;
     width: 30vw;
-    display: flex;
-    flex-wrap: wrap;
     padding: 10px;
     opacity: .7 ;
     transition: ease-in;
@@ -143,8 +135,6 @@ section {
     opacity: 1;
     transition-duration: .2s;
 }
-
-
 
 .big {
     width: 60vw;
@@ -157,12 +147,18 @@ section {
 
 .contact-info {
     display: flex;
-    justify-content: space-around;
-    border-bottom: 3px solid var(--tertiary-color);
+    justify-content:space-around;
     flex-wrap: wrap;
-    padding-bottom: 2px;
-
+    padding-bottom: 10px;
+    align-content: center;
+    width: 70%;
 }
 
+.connect{
+    font-size: 20px;
+    border-bottom: var(--tertiary-color) 3px solid;
+    text-decoration: none;
+    color:var(--primary-color);
+}
 
 /* END Styling Contact Me Section*/
