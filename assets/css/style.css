@@ -57,3 +57,112 @@ header nav ul li a {
     font-weight: normal;
     font-size: 1.55vw;
 }
+
+/* END Styling the Header */
+
+section {
+    display: flex;
+}
+
+/* Styling the Titles */
+
+
+.section-title {
+    font-size: 48px;
+    text-align: right;
+    padding-right: 20px;
+
+}
+
+.title-div {
+    display: flex;
+    flex: 0 0 22vw;
+    justify-content: right;
+    border-right: var(--primary-color) solid 5px;
+}
+/* END Styling the Titles */
+
+/* Styling Hero Section */
+
+.hero {
+    background-image: url(../images/shell2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+}
+/* END Hero Styling */
+
+/* Styling About Me  */
+
+.austin-pic {
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hello-world {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 400px;
+    font-size: 26px;
+    line-height: 1.5;
+    color: var(--primary-color);
+    padding: 15px;
+}
+
+.about-me-text {
+    width: 45vw;
+    font-size: 20px;
+    padding: 15px;
+}
+
+/* END Styling About Me */
+
+/* Styling Projects Section */
+
+.projects-div {
+    display:flex;
+    flex-wrap: wrap;
+    width: 75vw;
+}
+
+.project-img {
+    display: flex;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    opacity: .7 ;
+    transition: ease-in;
+}
+
+.project-img:hover {
+    opacity: 1;
+    transition-duration: .2s;
+}
+
+
+
+.big {
+    width: 60vw;
+}
+
+
+/* END Styling Projects Section */
+
+/* Styling Contact Me Section*/
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid var(--tertiary-color);
+    flex-wrap: wrap;
+    padding-bottom: 2px;
+
+}
+
+
+/* END Styling Contact Me Section*/
