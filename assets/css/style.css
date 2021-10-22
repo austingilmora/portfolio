@@ -162,3 +162,27 @@ section {
 }
 
 /* END Styling Contact Me Section*/
+
+/* Media queries */
+@media screen and (max-width: 1152px) {
+    .about-me {
+        display: flex;
+        align-content: flex-end;
+        width: 100%;
+        flex-flow: column wrap;
+    }
+
+    .hello-world {
+        flex: 0 0 30px;
+    }
+
+    .about-me-text {
+        width: 78vw;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .section-title {
+        font-size: 4vw;
+    }
+}
