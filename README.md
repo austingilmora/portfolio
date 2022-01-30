@@ -9,4 +9,5 @@
 https://austingilmora.github.io/portfolio/
 
 ## A picture of my deployed website:
-![screencapture-austingilmora-github-io-portfolio-2021-10-29-17_20_50](https://user-images.githubusercontent.com/90655310/139503144-38d7dc15-f635-4411-9f0a-cf03486dcf90.png)
+
+![screencapture-file-C-Users-dgilm-Desktop-Work-on-portfolio-index-html-2022-01-30-11_08_15](https://user-images.githubusercontent.com/90655310/151707457-2b2cdb07-bc49-4059-ac3d-7eb2eac4ecae.png)
